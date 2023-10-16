@@ -6,4 +6,13 @@ h1 {
     color: darkslateblue;
     text-align: center;
 }
+.assign {
+  background-color: darkgray;
+  margin: 10px;
+  display: flex; 
+}
+.assign img {
+  width: 200px;
+  padding: 10px;
+}
 
