@@ -1,18 +1,31 @@
 body {
   background-color: cadetBlue;
   font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
 }
 h1 {
     color: darkslateblue;
     text-align: center;
+    width: 100%;
+    display: block;
 }
 .assign {
   background-color: darkgray;
   margin: 10px;
-  display: flex; 
+  display: block; 
+  width: 20%;
+  box-shadow:8px 8px [blue];
+  border-radius: 20px;
 }
 .assign img {
   width: 200px;
   padding: 10px;
 }
+.assign img: hover{
+  width: 100%;
+  margin: 10px;
+  border: 2px dotted yellow;
+}
+
 
